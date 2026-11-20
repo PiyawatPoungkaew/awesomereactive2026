@@ -1,0 +1,14 @@
+import React from 'react';
+import { View } from 'react-native';
+
+export default function Ex07() {
+  return (
+    <View style={{ flex: 1, justifyContent: 'flex-end' }}>
+      <View style={{ flexDirection: 'row' }}>
+        <View style={{ width: 100, height: 100, backgroundColor: '#50E3C2' }} />
+        <View style={{ width: 100, height: 100, backgroundColor: '#4A90E2' }} />
+        <View style={{ width: 100, height: 100, backgroundColor: '#9013FE' }} />
+      </View>
+    </View>
+  );
+}
